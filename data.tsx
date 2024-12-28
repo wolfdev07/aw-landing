@@ -1,33 +1,27 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Crop, Pencil, Computer, Book, Rocket, Speech, Instagram, Facebook, PhoneCall, MessageCircle } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Crop, Pencil, Computer, Book, Rocket, Speech, Instagram, Facebook, PhoneCall, MessageCircle, Github } from "lucide-react";
 
 export const socialNetworks = [
     {
         id: 1,
+        logo: <Github size={30} strokeWidth={1} />,
+        src: "#!",
+    },
+    {
+        id: 2,
+        logo: <Linkedin size={30} strokeWidth={1} />,
+        src: "https://mx.linkedin.com/in/arthuro-dev",
+    },
+    {
+        id: 3,
         logo: <Instagram size={30} strokeWidth={1} />,
         src: "#!",
     },
 
     {
-        id: 2,
+        id: 4,
         logo: <Facebook size={30} strokeWidth={1} />,
         src: "#!",
-    },
-    {
-        id: 3,
-        logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 4,
-        logo: <PhoneCall size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-
-    {
-        id: 5,
-        logo: <MessageCircle size={30} strokeWidth={1} />,
-        src: "#!",
-    },
+    }
 ];
 
 

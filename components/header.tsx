@@ -2,14 +2,21 @@ import Link from "next/link";
 import MotionTransition from "./transition-component";
 import { socialNetworks } from "@/data";
 
-const Header = () => {
+interface ProfilePhoto{
+    children: React.ReactNode;
+}
+
+const Header = (props: ProfilePhoto) => {
+    
+    const { children } = props;
+
     return (
         <MotionTransition position="bottom" className="absolute z-40 inline-block w-full top-5">
             <header>
                 <div className="container rounded-lg bg-white/15 background-blur-sm justify-between max-w-6xl mx-auto p-4 md:flex md:p-2">
                     <Link href="/">
                         <div className="grid justify-items-center">
-                            <img className="w-24 h-24 rounded-full object-cover object-center" src="./profile-photo.jpg" alt="profile photo" />
+                            { children }
                         </div>
                         <h1 className="my-3 pb-0 mb-0 text-2xl font-bold text-center md:text-left">
                             Arturo Victoria
@@ -37,4 +44,4 @@ const Header = () => {
     );
 }
 
-export default Header
+export default Header;

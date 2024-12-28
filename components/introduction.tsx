@@ -39,10 +39,10 @@ const Intruduction = () => {
                         </Link>
 
                         <Link 
-                        href="/projects" 
+                        href="/about-me" 
                         className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit 
                         rounded-xl hover:shadow-xl hover:shadow-withe/50">
-                            Trayectoria
+                            Experiencia
                         </Link>
 
                     </div>

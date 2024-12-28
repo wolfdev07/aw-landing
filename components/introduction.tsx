@@ -10,15 +10,37 @@ const Intruduction = () => {
             <div className="z-20 grid items-center h-full">
                 <div className="flex flex-col justify-center max-w-md">
 
-                    <p className="mb-3 p-3 text-2xl leading-tight text-center md:text-4xl md:mb-10">
-                        Desarrollador <br />
+                    <p className="text-4xl leading-tight text-center md:mb-10">Desarrollador</p>
+                    
+                    <p className="mb-3 text-2xl leading-tight text-center md:mb-10">
+                        
                         <TypeAnimation
                         sequence={[
-                            "Backend/Frontend",
+                            "con 4 años de experiencia",
                             2500,
-                            "con 4 años de experiencia profesional",
+                            "Backend",
+                            2000,
+                            "Frontend",
+                            1500,
+                            "Fullstack",
+                            1500,
+                            "DevOps",
+                            1500,
+                            "Python",
+                            1500,
+                            "Java",
+                            1500,
+                            "Angular",
+                            1500,
+                            "C++",
+                            1500,
+                            "con Pasión por la Innovación",
                             2500,
-                            "con Pasión por la Innovación, Tecnología y Ciencia",
+                            "Amante de la Tecnología y Ciencia",
+                            2500,
+                            "y Catador de Taquitos",
+                            2500,
+                            "y Especialista en Batman",
                             2500
                         ]}
                         wrapper="span"
@@ -28,7 +50,7 @@ const Intruduction = () => {
                         />
                     </p>
 
-                    <div className="flex items-center justify-center gap-3 md-justify-start md:gap-10">
+                    <div className="flex items-center justify-center gap-3 mt-5 md-justify-start md:gap-10">
 
                         <Link 
                         href="/projects" 

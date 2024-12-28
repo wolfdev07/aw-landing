@@ -13,9 +13,12 @@ const PageAboutMe = () => {
                 <h1 className="text-2xl leading-tight text-center md:left md:text-5xl md-mt-10">
                     Experiencia <span className="font-bold text-primary">Profesional</span>
                 </h1>
+                
                 <CounterServices/>
+                <TimeLine />
+
             </ContainerComponent>
-            <TimeLine />
+            
         </>
     );
 }

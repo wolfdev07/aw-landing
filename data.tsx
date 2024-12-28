@@ -80,7 +80,7 @@ export const dataAboutPage = [
         title: "Software Engineer Trainee",
         subtitle: "CitiBanamex",
         imgSrc:"https://www.dafont.com/forum/attach/orig/6/8/688988.png?1",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
+        description: "Procesamiento de datos con python, limpieza, filtrado y transformación para la toma de desiciones.",
         date: "Jul 2019",
     },
     {

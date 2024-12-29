@@ -113,22 +113,27 @@ export const dataCounter = [
 export const serviceData = [
     {
         icon: <Crop />,
-        title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
+        title: "Backend",
+        description: "Desarrollo en distintitas arquitecturas, especialista en Microservicios y MVC",
+        img: [
+            "https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png",
+            "https://www.tutofox.com/wp-content/uploads/2023/04/drf-logo2.png",
+            "https://media.licdn.com/dms/image/v2/C4E12AQHLrixLtKBLiw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1636571568950?e=2147483647&v=beta&t=PYGAQcP_EAryhqTnojfvgp6nBlClRnoggyAmZCZoYT0"
+        ]
     },
     {
         icon: <Pencil />,
-        title: "Diseño web",
+        title: "Java",
         description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
     },
     {
         icon: <Computer />,
-        title: "Desarrollo web",
+        title: "Angular",
         description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
     },
     {
         icon: <Book />,
-        title: "Copywriting",
+        title: "C++",
         description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
     },
     {

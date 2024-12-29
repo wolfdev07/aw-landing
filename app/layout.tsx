@@ -4,8 +4,10 @@ import "./globals.css";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+
 //components
 import Navbar from "@/components/navbar";
+import CoverParticles from "@/components/cover-particles";
 
 const urbanist = Urbanist({ variable: "--font-urbanist-sans", subsets: ["latin"], });
 
@@ -22,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={`${urbanist.variable} antialiased`} >
+        <CoverParticles />
         <Navbar/>
         {children}
       </body>

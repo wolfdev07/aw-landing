@@ -11,7 +11,6 @@ export default function Home() {
       </Header>
       <TransitionPage/>
       <div className="flex min-h-[100vh] h-full bg-no-repeat bg-gradient-cover">
-        <CoverParticles />
         <Intruduction />
       </div>
     </main>

@@ -10,9 +10,9 @@ const Intruduction = () => {
             <div className="z-20 grid items-center h-full">
                 <div className="flex flex-col justify-center max-w-md">
 
-                    <p className="text-4xl leading-tight text-center md:mb-10">Desarrollador</p>
+                    <p className="text-3xl leading-tight text-center md:mb-10">Desarrollador</p>
                     
-                    <p className="mb-3 text-2xl leading-tight text-center md:mb-10">
+                    <p className="mb-3 text-xl leading-tight text-center md:mb-10">
                         
                         <TypeAnimation
                         sequence={[
@@ -46,14 +46,14 @@ const Intruduction = () => {
                         wrapper="span"
                         speed={50}
                         repeat={Infinity}
-                        className="text-bold text-primary"
+                        className="text-primary"
                         />
                     </p>
 
                     <div className="flex items-center justify-center gap-3 mt-5 md-justify-start md:gap-10">
 
                         <Link 
-                        href="/projects" 
+                        href="/portfolio" 
                         className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl
                         text-primary border-primary
                         hover:shadow-xl hover:shadow-withe/50">

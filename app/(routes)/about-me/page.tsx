@@ -1,5 +1,4 @@
 import TransitionPage from "@/components/transition-page";
-import CoverParticles from "@/components/cover-particles";
 import ContainerComponent from "@/components/container";
 import CounterServices from "@/components/counter-services";
 import TimeLine from "@/components/time-line";
@@ -7,7 +6,6 @@ import TimeLine from "@/components/time-line";
 const PageAboutMe = () => {
     return (
         <>  
-            <CoverParticles />
             <TransitionPage />
             <ContainerComponent>
                 <h1 className="text-2xl leading-tight text-center md:left md:text-5xl md-mt-10">

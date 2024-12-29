@@ -1,5 +1,4 @@
 import TransitionPage from "@/components/transition-page";
-import CoverParticles from "@/components/cover-particles";
 import ContainerComponent from "@/components/container";
 import SliderServices from "@/components/slider-services";
 
@@ -7,7 +6,6 @@ import SliderServices from "@/components/slider-services";
 const ServicesPage = () => {
     return (
         <>  
-            <CoverParticles />
             <TransitionPage />
             <ContainerComponent>
                 <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center max-w-5xl gap-6 mx-auto md:grid-cols-2">

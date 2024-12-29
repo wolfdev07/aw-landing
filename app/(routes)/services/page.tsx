@@ -1,3 +1,4 @@
+import Link from "next/link";
 import TransitionPage from "@/components/transition-page";
 import ContainerComponent from "@/components/container";
 import SliderServices from "@/components/slider-services";
@@ -23,6 +24,14 @@ const ServicesPage = () => {
                     <div>
                         
                     </div>
+                </div>
+                <div className="grid grid-cols-1 justify-center justify-items-center">
+                    <Link 
+                        href="/portfolio" 
+                        className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit 
+                        rounded-xl hover:shadow-xl hover:shadow-withe/50">
+                            Proyectos
+                    </Link>
                 </div>
             </ContainerComponent>
         </>

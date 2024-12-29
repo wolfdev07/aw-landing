@@ -53,11 +53,11 @@ const Intruduction = () => {
                     <div className="flex items-center justify-center gap-3 mt-5 md-justify-start md:gap-10">
 
                         <Link 
-                        href="/portfolio" 
+                        href="/services" 
                         className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl
                         text-primary border-primary
                         hover:shadow-xl hover:shadow-withe/50">
-                            Proyectos
+                            Expertise
                         </Link>
 
                         <Link 

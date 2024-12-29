@@ -54,7 +54,7 @@ export const itemsNavbar = [
         id: 5,
         title: "Contact",
         icon: <PhoneCall size={25} color="#fff" strokeWidth={1} />,
-        link: "/testimonials",
+        link: "tel: 7297221777",
     },
 ];
 

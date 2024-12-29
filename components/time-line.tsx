@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { dataAboutPage } from "@/data";
 
 const TimeLine = () => {
@@ -21,7 +22,7 @@ const TimeLine = () => {
                             <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-secondary bg-primary rounded-full">{data.date}</time>
                             
                             <div className={`grid justify-items-center`}>
-                                <img src={ data.imgSrc? data.imgSrc : " " } 
+                                <Image src={ data.imgSrc? data.imgSrc : " " } 
                                 className={
                                     (data.subtitle === "Rack Dev" || data.subtitle === "bizcaia" ? "w-10" : "w-32")
                                 } alt={ data.subtitle } />

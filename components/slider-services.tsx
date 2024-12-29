@@ -1,5 +1,4 @@
 "use client"
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 
@@ -18,6 +17,7 @@ const SliderServices = () => {
                         <p className="text-sm mb-4">{item.description}</p>
                         <div className='grid grid-cols-4 items-bottom gap-2 mb-1'>
                             {item.img?.map((img, index) => (
+                                /* eslint-disable @next/next/no-img-element */
                                 <img key={index} src={img} className='w-full h-12 object-cover rounded-lg'/>
                             ))}
                         </div>

@@ -1,7 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
 import MotionTransition from "./transition-component";
-import { socialNetworks } from "@/data";
-
 
 const HeaderMinimal = () => {
 
@@ -11,7 +10,7 @@ const HeaderMinimal = () => {
                 <div className="container rounded-lg bg-white/15 background-blur-sm justify-between max-w-6xl mx-auto p-4 md:flex md:p-2">
                     <Link href="/">
                         <div className="grid justify-items-center md:justify-items-start">
-                            <img className="w-10 h-10 rounded-full object-cover object-center" src="./profile-photo.jpg" alt="profile photo" />
+                            <Image className="w-10 h-10 rounded-full object-cover object-center" src="./profile-photo.jpg" alt="profile photo" />
                         </div>
                         <h1 className="text-center md:text-left">
                             Arturo Victoria

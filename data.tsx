@@ -4,7 +4,7 @@ export const socialNetworks = [
     {
         id: 1,
         logo: <Github size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://github.com/wolfdev07",
     },
     {
         id: 2,
@@ -14,13 +14,13 @@ export const socialNetworks = [
     {
         id: 3,
         logo: <Instagram size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.instagram.com/arturo.victoria/profilecard/?igsh=Y3pxeTl4dnRwMnM0",
     },
 
     {
         id: 4,
         logo: <Facebook size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.facebook.com/ArthurWolfDev/",
     }
 ];
 
